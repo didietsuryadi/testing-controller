@@ -1,0 +1,29 @@
+{
+  "name": "testing-controller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/didietsuryadi/testing-controller.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/didietsuryadi/testing-controller/issues"
+  },
+  "homepage": "https://github.com/didietsuryadi/testing-controller#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "chai-arrays": "0.0.1"
+  }
+}
