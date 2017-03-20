@@ -15,19 +15,19 @@ describe('Testing Data Type', function () {
 
 describe('Testing Result', function () {
   it('Result should be [3] when input 3 ', function () {
-    controller.primeFactor(3).should.be.equal([3])
+    controller.primeFactor(3).should.be.equalTo([3])
   })
   it('Result should be [2,3] when input 6 ', function () {
-    controller.primeFactor(6).should.be.equal([2,3])
+    controller.primeFactor(6).should.be.equalTo([2,3])
   })
   it('Result should be [2,2,2] when input 8 ', function () {
-    controller.primeFactor(8).should.be.equal([2,2,2])
+    controller.primeFactor(8).should.be.equalTo([2,2,2])
   })
   it('Result should be [5,5] when input 25 ', function () {
-    controller.primeFactor(25).should.be.equal([5,5])
+    controller.primeFactor(25).should.be.equalTo([5,5])
   })
   it('Result should be [3,3,41,333667] when input 123123123 ', function () {
-    controller.primeFactor(123123123).should.be.equal([3,3,41,333667])
+    controller.primeFactor(123123123).should.be.equalTo([3,3,41,333667])
   })
 })
 
